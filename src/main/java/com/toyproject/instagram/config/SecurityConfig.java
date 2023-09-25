@@ -18,7 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.cors();//mvcconfig에서 만든 cross orign을 얻을수있음
+        http.cors();//mvcconfig에서 만든 cross orign을 얻을수있음+
         // WebMvcConfig에서 설정한 cors 정책을따르겠다
 
         http.csrf().disable();
